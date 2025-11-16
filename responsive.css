@@ -22,6 +22,7 @@
         width: 100%;
         z-index: 999;
         box-shadow: none;
+        padding: 0;
     }
 
     .nav-wrapper{
@@ -93,7 +94,6 @@
         color: whitesmoke;
         text-align: justify;
         margin-bottom: 20px;
-        width: 100%;
     }
 
     
