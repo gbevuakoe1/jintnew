@@ -102,9 +102,12 @@
         flex-direction: column;
     }
 
-    .service-main-container{
+
+    .contact-main-section .contact-main-container{
         flex-direction: column;
     }
+
+    
 
     
     
