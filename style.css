@@ -202,6 +202,8 @@ nav{
     margin-bottom: 20px;
 }
 
+/* *********************** ABOUT MAIN SECTION *********************** */
+
 
 .about-main-section{
    margin: 80px 0;
@@ -244,6 +246,9 @@ nav{
 }
 
 
+/* *********************** SERVICE MAIN SECTION *********************** */
+
+
 .service-main-section{
     margin: 80px 0;
     text-align: center;
@@ -283,11 +288,13 @@ nav{
 }
 
 
+/* *********************** CONTACT MAIN SECTION *********************** */
+
 .contact-main-section{
     margin: 80px 0;
     background-color: white;
     display: flex;
-    align-items: center;
+    
 }
 
 .contact-main-container{
@@ -295,17 +302,18 @@ nav{
     width: 95%;
     margin: auto;
     display: flex;
-    justify-content: center;
+    gap: 30px;
     align-items: center;
-    gap: 50px;
+    justify-content: center;
 }
 
 .contact-main-left{
     flex: 1;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr)) ;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     gap: 20px;
     text-align: center;
+    height: 50vh;
 }
 
 .contact-main-left .contact-main-left-card{
@@ -329,12 +337,10 @@ nav{
 }
 
 .contact-main-right{
-    flex: 1;
+    flex: 1.2;
+    width: 100%;
 }
 
-.contact-main-right.form-container{
-    
-}
 .contact-main-right .form-container h2{
     color: black;
     font-size: 36px;
@@ -342,7 +348,8 @@ nav{
 }
 
 .contact-main-right .form-container .input-box{
-    width: 100%;
+    display: flex;
+    gap: 20px;
 }
 
 .contact-main-right .form-container input{
@@ -414,5 +421,118 @@ nav{
 }
 
 
+
+
+
+
+/* *********************** CONTACT SECTION *********************** */
+
+.hero-contact{
+    background: linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0,0.5)),url(./Images/contact\ background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;   
+}
+
+
+.hero-contact .hero-contact-content h3{
+    font-size: 36px;
+}
+
+.contact-section{
+    margin: 80px 0;
+    display: flex;
+}
+
+.contact-section .contact-container{
+    max-width: 1400px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-section .contact-container .contact-left{
+    flex: 1;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+    text-align: center;
+    height: 50vh;
+}
+
+.contact-section .contact-container .contact-left .contact-card{
+    padding: 20px 40px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; 
+}
+
+
+
+.contact-section .contact-container .contact-left .contact-card i{
+    color: red;
+    font-size:30px;
+}
+
+.contact-section .contact-container .contact-left .contact-card h4{
+    margin: 10px 0;
+    color: red;
+    font-size: 18px;
+}
+.contact-section .contact-container .contact-left .contact-card p{
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.contact-section .contact-container .contact-right{
+    flex: 1.2;
+    width: 100%;
+}
+
+
+.contact-section .contact-container .contact-right .form-container{
+    background-color: rgba(211, 211, 211, 0.178);
+    padding: 40px 10px;
+}
+
+.contact-section .contact-container .contact-right .form-container .input-box{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.contact-section .contact-container .contact-right .form-container input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+}
+
+.contact-section .contact-container .contact-right .form-container .input-box textarea{
+    height: 150px;
+    width: 100%;
+    resize: none;
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+}
+
+
+.map-section{
+    margin: 80px 0;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
 
 

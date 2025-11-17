@@ -107,6 +107,23 @@
         flex-direction: column;
     }
 
+    .contact-main-right .form-container .input-box{
+        flex-direction: column;
+    }
+
+    .hero-contact .hero-contact-content h3{
+        font-size: 30px;
+    }
+
+
+    .contact-section .contact-container{
+        flex-direction: column;
+    }
+
+    .contact-section .contact-container .contact-right .form-container .input-box{
+        flex-direction: column;
+    }
+
 
     
 
