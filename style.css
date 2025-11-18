@@ -207,6 +207,7 @@ nav{
 
 .about-main-section{
    margin: 80px 0;
+   min-height: 90vh;
 }
 
 .about-main-container{
@@ -294,6 +295,7 @@ nav{
     margin: 80px 0;
     background-color: white;
     display: flex;
+    min-height: 80vh;
     
 }
 
@@ -313,7 +315,7 @@ nav{
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     gap: 20px;
     text-align: center;
-    height: 50vh;
+    min-height: 60vh;
 }
 
 .contact-main-left .contact-main-left-card{
@@ -339,6 +341,7 @@ nav{
 .contact-main-right{
     flex: 1.2;
     width: 100%;
+    min-height: 60vh;
 }
 
 .contact-main-right .form-container h2{
@@ -373,6 +376,16 @@ nav{
 
 .testimonial-section{
     margin: 80px 0;
+    text-align: center;
+}
+
+.testimonial-section h2{
+    font: 32px;
+    margin-bottom: 10px;
+}
+.testimonial-section p{
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .testimonial-section .testimonial-container{
