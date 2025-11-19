@@ -105,7 +105,7 @@ a{
     background-color: transparent;
     padding: 16px 20px;
     color: black;
-    border: 3px double red;
+    border: 3px double black;
     display: inline-block;
     text-decoration: none;
     margin: 10px auto;
@@ -546,6 +546,169 @@ nav{
     max-width: 1200px;
     width: 90%;
     margin: auto;
+}
+
+
+.whatsapp{
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+}
+
+.whatsapp img{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+
+footer{
+    background-color: black;
+    width: 100%;
+    color: white;
+    margin-top: 80px;
+    
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 30px;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.footer-container h3{
+    margin: 40px 0;
+}
+
+.footer-container .contact-details strong{
+    color: white;
+}
+
+.footer-container .contact-details p{
+    margin: 20px 0;
+    color: rgb(136, 131, 131);;
+    line-height: 1.5;
+}
+
+
+.footer-container .link-details li{
+    margin: 20px 0;
+    list-style: none;
+}
+
+.footer-container .link-details li a{
+    color: rgb(136, 131, 131);
+    transition: 0.3s ease;
+}
+
+.footer-container .link-details li a:hover{
+    color: red;
+}
+
+.footer-container .services-details li{
+    margin: 20px 0;
+    list-style: none;
+}
+
+.footer-container .services-details li a{
+    color: rgb(136, 131, 131);
+    transition: 0.3s ease;
+}
+
+.footer-container .services-details li a:hover{
+    color: red;
+}
+
+.footer-container .social-icons{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-container .social-icons i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(136, 131, 131);
+    border-radius: 50%;
+    margin-bottom: 80px;
+}
+
+.footer-container .social-icons i:hover{
+    background-color: red;
+    color: white;
+}
+
+.privacy a{
+    color:rgb(136, 131, 131);
+ }
+
+ .privacy a:hover{
+    color: red;
+ }
+
+.footer-bottom{
+    text-align: center;
+    padding: 40px 0;
+}
+
+
+
+
+/* *********************** TAX SERVICES *********************** */
+
+
+.hero-taxservice{
+    background: linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0,0.5)),url(./Images/servicce1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;   
+}
+
+
+.hero-taxservice .hero-taxservice-content h3{
+    font-size: 36px;
+}
+
+.taxservice-header p{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.tax-service{
+    max-width: 1000px;
+    width: 90%;
+    margin: 80px auto;
+    
+    
+}
+
+.tax-service h4{
+    margin: 40px 0 20px 0;
+    font-size: 20px;
+}
+
+.tax-service ul li{
+    color: gray;
+    line-height: 2;
 }
 
 
