@@ -187,6 +187,13 @@
     padding: 0 40PX;
 }
 
+
+
+
+    .slide {
+        min-width: 50%; /* 3 images */
+    }
+
     
 
 
@@ -209,9 +216,6 @@
 
 
 
-    .slide {
-        min-width: 33.33%; /* 3 images */
-    }
 
     
 
@@ -225,7 +229,7 @@
 
 
     .slide {
-        min-width: 50%; /* 2 images */
+        min-width: 100%; /* 2 images */
     }
     
 }
