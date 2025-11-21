@@ -125,6 +125,46 @@
     }
 
 
+    /* *********** MAIN SECTION *********** */
+    .service-main-section h2{
+        font-size: 24px;
+    }
+
+    .service-main-section p{
+        font-size: 18px;
+        padding: 0 20px;
+    }
+
+    .service-main-section .service-main-container .service-main-card h3{
+        font-size: 22px;
+    }
+
+
+    /* *********** TESTIMONIALS *********** */
+
+   .testimonial-section h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+    .testimonial-section p{
+    font-size: 18px;
+    padding: 0 20PX;
+}
+
+    /* *********** CLIENT CAROUSEL *********** */
+
+   .client-carousel h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+    .client-carousel p{
+    font-size: 18px;
+    padding: 0 20PX;
+}
+
+    
+
+
 
 
 
@@ -133,11 +173,11 @@
         font-size: 20px;
         text-align: justify;
         padding: 20px 20px;
-    }
+ }
 
     .servicemain-container{
         flex-direction: column;
-    }
+ }
 
 
 
