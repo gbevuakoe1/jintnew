@@ -129,6 +129,21 @@
 
 
 
+    .tax-service p{
+        font-size: 20px;
+        text-align: justify;
+        padding: 20px 20px;
+    }
+
+    .servicemain-container{
+        flex-direction: column;
+    }
+
+
+
+
+
+
     .slide {
         min-width: 33.33%; /* 3 images */
     }
