@@ -438,20 +438,28 @@ nav{
 
 /* *********************** OUR CLIENTS *********************** */
 
+.client-carousel{
+    margin: 80px 0;
+    text-align: center;
 
+}
+.client-carousel h2{
+    font: 32px;
+    margin-bottom: 10px;
+}
+.client-carousel p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
 
 .client-carousel {
-    width: 90%;
     max-width: 1200px;
+    width: 90%;
     margin: auto;
     padding: 40px 0;
     text-align: center;
 }
 
-.client-carousel h2 {
-    margin-bottom: 20px;
-    font-size: 28px;
-}
 
 .carousel-container {
     position: relative;
