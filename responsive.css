@@ -151,6 +151,29 @@
     padding: 0 40PX;
 }
 
+
+.count-section{
+    flex-direction: column;
+    
+}
+
+.count-section .counter-box{
+    border-bottom: 1px solid gainsboro;
+    display: block;
+    padding: 20px 0;
+}
+.count-section .counter-box h3{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.count-section .counter-box span{
+    font-size: 28px;
+
+}
+
     /* *********** CLIENT CAROUSEL *********** */
 
    .client-carousel h2{

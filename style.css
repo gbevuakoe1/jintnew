@@ -446,17 +446,18 @@ nav{
     gap: 40px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.767);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 10px;
     padding: 40px;
 }
 
 
-.counter-box {
+.count-section .counter-box {
     margin: 20px;
 }
 
-.counter-box h3{
+.count-section .counter-box h3{
     color: white;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 .counter {
