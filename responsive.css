@@ -125,6 +125,14 @@
     }
 
 
+
+
+
+
+    .slide {
+        min-width: 33.33%; /* 3 images */
+    }
+
     
 
     
@@ -132,5 +140,12 @@
 }
     /* 600px for mobile phones */
 @media (max-width: 600px){
+
+
+
+
+    .slide {
+        min-width: 50%; /* 2 images */
+    }
     
 }
