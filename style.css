@@ -437,7 +437,7 @@ nav{
 /* *********************** MEMBERS *********************** */
 
 .count-section{
-    max-width: 1400px;
+    max-width: 1200px;
     width: 90%;
     margin: auto;
     display: flex;
@@ -453,6 +453,8 @@ nav{
 
 .count-section .counter-box {
     margin: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .count-section .counter-box h3{

@@ -152,6 +152,8 @@
 }
 
 
+
+
 .count-section{
     flex-direction: column;
     
@@ -160,6 +162,7 @@
 .count-section .counter-box{
     border-bottom: 1px solid gainsboro;
     padding: 20px 0;
+    flex-direction: column;
 }
 .count-section .counter-box h3{
     color: white;
