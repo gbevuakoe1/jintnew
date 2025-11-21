@@ -42,3 +42,37 @@ setInterval(() => {
 window.addEventListener('resize', updateCarousel);
 
 
+
+
+
+const counters = document.querySelectorAll('.counter');
+
+counters.forEach(counter => {
+    counter.textContent = "0";
+
+    const updateCounter = () => {
+        const target = +counter.getAttribute('data-target');
+        const current = +counter.textContent;
+        const speed = 80;
+
+        const increment = target / speed;
+
+        if (current < target) {
+            counter.textContent = Math.ceil(current + increment);
+            setTimeout(updateCounter, 20);
+        } else {
+            let finalValue = target;
+
+            // Add + symbol if data-plus="true"
+            if (counter.getAttribute('data-plus') === "true") {
+                finalValue += "+";
+            }
+
+            counter.textContent = finalValue;
+        }
+    };
+
+    updateCounter();
+});
+
+

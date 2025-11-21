@@ -434,6 +434,39 @@ nav{
 }
 
 
+/* *********************** MEMBERS *********************** */
+
+.count-section{
+    max-width: 1400px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.767);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 40px;
+}
+
+
+.counter-box {
+    margin: 20px;
+}
+
+.counter-box h3{
+    color: white;
+    margin-bottom: 10px;
+}
+.counter {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+
 
 
 /* *********************** OUR CLIENTS *********************** */
