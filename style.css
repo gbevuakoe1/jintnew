@@ -437,11 +437,34 @@ nav{
 
 /* *********************** SERVICE SECTION *********************** */
 
+.hero-service{
+    background: linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0,0.5)),url(./Images/service2.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;   
+}
 
+
+.hero-service .hero-service-content h3{
+    font-size: 36px;
+}
+
+
+.tax-service p{
+    font-size: 24px;
+    text-align: center;
+}
 
 .service-main{
     margin: 80px 0;
 }
+
 
 .servicemain-header{
     text-align: center;
