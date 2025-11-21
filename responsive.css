@@ -132,7 +132,7 @@
 
     .service-main-section p{
         font-size: 18px;
-        padding: 0 20px;
+        padding: 0 40px;
     }
 
     .service-main-section .service-main-container .service-main-card h3{
@@ -148,7 +148,7 @@
 }
     .testimonial-section p{
     font-size: 18px;
-    padding: 0 20PX;
+    padding: 0 40PX;
 }
 
     /* *********** CLIENT CAROUSEL *********** */
@@ -159,7 +159,7 @@
 }
     .client-carousel p{
     font-size: 18px;
-    padding: 0 20PX;
+    padding: 0 40PX;
 }
 
     
