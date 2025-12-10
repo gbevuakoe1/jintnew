@@ -227,6 +227,8 @@ nav{
     animation: firstani;
     animation-duration: 1.3s;
     animation-timing-function: ease-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 60%;
 }
    
 .about-main-left h2{
@@ -250,6 +252,8 @@ nav{
     animation: secondani;
     animation-duration: 1.3s;
     animation-timing-function: ease-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 60%;
 }
 .about-main-right img{
     width: 100%;;
